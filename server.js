@@ -42,6 +42,6 @@ paytmParams['INDUSTRY_TYPE_ID'] = process.env.PAYTM_INDUSTRY_TYPE_ID;
 paytmParams['ORDER_ID'] = uuid();
 paytmParams['CUST_ID'] = process.env.PAYTM_CUST_ID;
 paytmParams['TXN_AMOUNT'] = '1';
-paytmParams['CALLBACK_URL'] = 'callback';
+paytmParams['CALLBACK_URL'] = 'https://ecommerce-evf1.onrender.com/callback';
 paytmParams['EMAIL'] = 'ojal.mittal5@gmail.com';
 paytmParams['MOBILE_NO'] = '8630065546';
